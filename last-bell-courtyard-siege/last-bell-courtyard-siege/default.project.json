@@ -1,0 +1,27 @@
+{
+  "name": "LastBellCourtyardSiege",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "Client": { "$path": "src/ReplicatedStorage/Client" },
+      "Shared": { "$path": "src/ReplicatedStorage/Shared" },
+      "Packages": { "$path": "Packages" }
+    },
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "Bootstrapper": { "$path": "src/ServerScriptService/Bootstrapper" },
+      "Server": { "$path": "src/ServerScriptService/Server" },
+      "Packages": { "$path": "ServerPackages" }
+    },
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "Bootstrapper": { "$path": "src/StarterPlayer/StarterPlayerScripts/Bootstrapper" }
+      }
+    },
+    "Workspace": { "$ignoreUnknownInstances": true },
+    "Lighting": { "$ignoreUnknownInstances": true }
+  }
+}
